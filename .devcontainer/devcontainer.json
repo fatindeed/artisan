@@ -1,0 +1,15 @@
+// See https://aka.ms/vscode-remote/containers for the
+// documentation about the devcontainer.json format
+{
+    "name": "artisan",
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "php",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "felixfbecker.php-debug",
+        "felixfbecker.php-intellisense"
+    ],
+    "shutdownAction": "stopCompose"
+}

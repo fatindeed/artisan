@@ -1,0 +1,121 @@
+<?php
+
+return [
+    // Regions
+    'Europe' => '欧洲',
+    'Africa' => '非洲',
+    'North & Central America' => '北美洲和中美洲',
+    'South America' => '南美洲',
+    'Asia-Oceania' => '亚洲及大洋洲',
+    // Countries
+    // Leagues
+    'English League' => '英格兰足球超级联赛',
+    'English 2nd Division' => '英格兰足球冠军联赛',
+    'Ligue 1 Conforama' => '法国足球甲级联赛',
+    'Domino\'s Ligue 2' => '法国足球乙级联赛',
+    'Italian League' => '意大利足球甲级联赛',
+    'Eredivisie' => '荷兰足球甲级联赛',
+    'Spanish League' => '西班牙足球甲级联赛',
+    'Liga NOS' => '葡萄牙足球超级联赛',
+    'Jupiler Pro League' => '比利时足球甲级联赛',
+    'Superliga' => '丹麦足球超级联赛',
+    'Russian Premier Liga' => '俄罗斯足球超级联赛',
+    'Ladbrokes Premiership' => '苏格兰足球超级联赛',
+    'Raiffeisen Super League' => '瑞士足球超级联赛',
+    'Spor Toto Süper Lig' => '土耳其足球超级联赛',
+    'Other European Leagues' => '其它欧洲球队',
+    'Superliga Quilmes Clásica' => '阿根廷足球甲级联赛',
+    'Campeonato Brasileiro' => '巴西足球甲级联赛',
+    'Campeonato Scotiabank' => '智利足球甲级联赛',
+    'Liga Águila' => '哥伦比亚足球甲级联赛',
+    'Other Latin American Teams' => '其它拉美球队',
+    'CFA Super League' => '中国足球协会超级联赛',
+    'TOYOTA Thai League' => 'TOYOTA泰国足球超级联赛',
+    'AFC Champions League' => '亚足联冠军联赛',
+    'Other Clubs (Asia)' => '其他俱乐部（亚洲）',
+    // Favourite Tactics
+    'Counter Attack (Attacking Style)' => '进攻风格（反攻）', // 625
+    'Possession Game (Attacking Style)' => '进攻风格（控球游戏）', // 626
+    'Long-pass (Build Up)' => '后场组织者（长传）', // 627
+    'Short-pass (Build Up)' => '后场组织者（短传）', // 628
+    'Wide (Attacking Area)' => '进攻区域（侧翼）', // 629
+    'Centre (Attacking Area)' => '进攻区域（中央）', // 630
+    'Maintain Formation (Positioning)' => '跑位（保持队形）', // 631
+    'Flexible (Positioning)' => '跑位（弹性）', // 632
+    'Frontline Pressure (Defensive Style)' => '防守风格（前线施压）', // 633
+    'All-out Defence (Defensive Style)' => '防守风格（全体球员防守）', // 634
+    'Centre (Containment Area)' => '围堵区域（中央）', // 635
+    'Wide (Containment Area)' => '围堵区域（侧翼）', // 636
+    'Aggressive (Pressuring)' => '施压（积极的）', // 637
+    'Conservative (Pressuring)' => '施压（防守）', // 638
+    // Player Skills 球员技巧
+    'Scissors Feint' => '踩单车', // 640
+    'Flip Flap' => '牛摆尾', // 642
+    'Marseille Turn' => '马赛回旋', // 643
+    'Sombrero' => '海底捞月', // 644
+    'Cut Behind & Turn' => '向后切球并转身', // 646
+    'Scotch Move' => '后拉磕球', // 647
+    'Heading' => '头球', // 649
+    'Long Range Drive' => '远距离抽射', // 650
+    'Knuckle Shot' => '落叶球射门', // 652
+    'Acrobatic Finishing' => '杂技般进球', // 655
+    'Heel Trick' => '脚跟绝技', // 656
+    'First-time Shot' => '接球直接射门', // 657
+    'One-touch Pass' => '单触传球', // 658
+    'Weighted Pass' => '加重旋转传球', // 659
+    'Pinpoint Crossing' => '精确传中', // 660
+    'Outside Curler' => '外脚背弧线球', // 661
+    'Rabona' => '插花脚', // 662
+    'Low Lofted Pass' => '低空传球', // 664
+    'GK Low Punt' => '门将低空传球', // 665
+    'Long Throw' => '大力手抛球', // 667
+    'GK Long Throw' => '门将 大力手抛球', // 668
+    'Malicia' => '蛊惑招', // 671
+    'Man Marking' => '盯人', // 672
+    'Track Back' => '压迫', // 673
+    'Acrobatic Clear' => '杂技般解围', // 675
+    'Captaincy' => '队长', // 676
+    'Super-sub' => '超级候补', // 677
+    'Fighting Spirit' => '战斗精神', // 678
+    'No Look Pass' => '不看人传球', // 663
+    'Penalty Specialist' => '点球专家', // 669
+    'GK Penalty Saver' => '扑点球专家', // 670
+    'Chip shot control' => '吊射控制', // 651
+    'Step On Skill control' => '踩球控球技巧', // 648
+    'Dipping Shot' => '急坠射门', // 653
+    'Rising Shots' => '急升射门', // 654
+    'GK High Punt' => '高空门球', // 666
+    'Interception' => '拦截', // 674
+    'Double Touch' => '两次触球', // 641
+    'Cross Over Turn' => '压步转弯', // 645
+    // Playing Style 比赛风格
+    'Goal Poacher' => '偷猎者', // 680
+    'Dummy Runner' => '虚假跑位', // 681
+    'Fox in the Box' => '禁区之狐', // 682
+    'Target Man' => '支点中锋', // 692
+    'Creative Playmaker' => '创意指挥官', // 693
+    'Prolific Winger' => '高产边锋', // 683
+    'Classic No. 10' => '古典十号位', // 684
+    'Hole Player' => '前插攻击手', // 685
+    'Box-to-Box' => '全能中场', // 686
+    'The Destroyer' => '破坏者', // 688
+    'Anchor Man' => '靠山', // 687
+    'Build Up' => '后场组织者', // 694
+    'Offensive Full-back' => '进攻型后卫', // 690
+    'Defensive Full-back' => '防守型后卫', // 691
+    'Extra Frontman' => '额外前锋', // 689
+    'Offensive Goalkeeper' => '进攻型守门员', // 695
+    'Defensive Goalkeeper' => '防守型守门员', // 696
+    'Roaming Flank' => '自由边翼', // 697
+    'Cross Specialist' => '传中专家', // 698
+    'Orchestrator' => '指挥官', // 699
+    'Full-back Finisher' => '叠瓦边卫', // 700
+    // COM Playing Styles 电脑比赛风格
+    'Trickster' => '魔术师', // 701
+    'Mazing Run' => '惊人突破', // 702
+    'Speeding Bullet' => '疾速子弹', // 703
+    'Incisive Run' => '内切突破', // 704
+    'Long Ball Expert' => '长球专家', // 705
+    'Early Cross' => '快速传中', // 706
+    'Long Ranger' => '重炮手', // 707
+];
